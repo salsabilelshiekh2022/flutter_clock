@@ -41,7 +41,7 @@ ThemeData darkThemeData(BuildContext context) {
       headlineMedium: const TextStyle(color: kTitleTextDarkColor, fontSize: 32),
       displayLarge: const TextStyle(color: kTitleTextDarkColor, fontSize: 80),
     ),
-    colorScheme: const ColorScheme.light(
+    colorScheme: const ColorScheme.dark(
       secondary: kSecondaryDarkColor,
       surface: kSurfaceDarkColor,
     ).copyWith(background: kBackgroundDarkColor),
