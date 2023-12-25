@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
         icon: SvgPicture.asset(
           'assets/icons/Settings.svg',
           color: Theme.of(context).iconTheme.color,
-        ),
+        ), 
         onPressed: () {},
       ),
       actions: [

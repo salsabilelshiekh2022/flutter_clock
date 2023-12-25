@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'clock.dart';
 import 'time_in_hour_and_minute.dart';
 
 class Body extends StatelessWidget {
@@ -16,6 +17,7 @@ class Body extends StatelessWidget {
             style: Theme.of(context).textTheme.bodyLarge,
           ),
           const TimeInHourAndMinute(),
+          const Clock(),
         ],
       ),
     );
