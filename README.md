@@ -1,6 +1,6 @@
 # Analog Clock Light & Dark Theme
 
--clean analog clock app UI by using flutter. clock supports both the Dark and Light theme.
+- clean analog clock app UI by using flutter. clock supports both the Dark and Light theme.
 
 ## 🔌 Packages
 - flutter_svg: [link](https://pub.dev/packages/flutter_svg)
