@@ -8,6 +8,7 @@ ThemeData themeData(BuildContext context) {
     appBarTheme: appBarTheme,
     primaryColor: kPrimaryColor,
     hintColor: kAccentLightColor,
+    secondaryHeaderColor: kAccentLightColor,
     scaffoldBackgroundColor: Colors.white,
     colorScheme: const ColorScheme.light(
         secondary: kSecondaryLightColor, background: Colors.white),
@@ -29,7 +30,9 @@ ThemeData themeData(BuildContext context) {
 ThemeData darkThemeData(BuildContext context) {
   return ThemeData.dark().copyWith(
     primaryColor: kPrimaryColor,
+
     //accentColor: kAccentDarkColor,
+    secondaryHeaderColor: kAccentDarkColor,
     scaffoldBackgroundColor: const Color(0xFF0D0C0E),
     appBarTheme: appBarTheme,
     iconTheme: const IconThemeData(color: kBodyTextColorDark),
